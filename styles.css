@@ -1,0 +1,498 @@
+* {
+  box-sizing: border-box;
+}
+.font-edu {
+  font-family: "Edu QLD Beginner", cursive;
+}
+.font-great {
+  font-family: "Great Vibes", cursive;
+}
+.font-tange {
+  font-family: "Tangerine", cursive;
+}
+.font-pinyon {
+  font-family: "Pinyon Script", cursive;
+}
+.font-charmo {
+  font-family: "Charmonman", cursive;
+}
+.name {
+  /* font-family: "Charmonman", cursive; */
+  color: rgb(255, 245, 247);
+  text-shadow: rgba(0, 0, 0, 0.503) 0.1em 0.1em 0.2em;
+}
+
+.home h2 {
+  text-shadow: rgba(0, 0, 0, 0.503) 0.1em 0.1em 0.2em;
+}
+.main-phrase .font-tange {
+  font-size: 2.2rem;
+}
+.home {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/images/SONY-ILCE-7RM2-001402664704.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pb-5 {
+  padding-bottom: 5rem;
+}
+.display-6 {
+  font-size: 1.8rem;
+}
+
+/* Cuando */
+.cuando {
+  height: 100vh;
+  background-image: url("./assets/images/fondo.png");
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+}
+.text-fecha {
+  font-size: 3rem;
+  color: white;
+}
+.cuenta-regresiva {
+  text-align: center;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.815);
+}
+.transparent {
+  color: rgba(255, 255, 255, 0.815);
+}
+/* main-phrase */
+.main-phrase {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+}
+.w-70 {
+  width: 70%;
+}
+.main-phrase .text {
+  font-size: 1.6rem;
+}
+/* Ceremonia */
+.ceremonia-img {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.493),
+      rgba(5, 7, 12, 0.329)
+    ),
+    url("./assets/images/iglesia.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.ceremonia-information {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.titles {
+  font-family: "Tangerine", cursive;
+  font-size: 7rem;
+}
+.subtitles {
+  color: rgb(111, 69, 76);
+  font-family: "Tangerine", cursive;
+  font-size: 5rem;
+}
+.lead {
+  font-size: 1.2rem;
+}
+.hora {
+  font-size: 2.5rem;
+}
+button {
+  background-color: rgba(227, 186, 194, 0.496);
+  border: solid 1px rgb(233, 228, 233);
+  padding: 1rem;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgba(253, 245, 253, 0.596);
+  transition: all ease 0.7s;
+}
+a {
+  text-decoration: none;
+}
+/* Recepcion */
+.recepcion-img {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.274),
+      rgba(5, 7, 12, 0.171)
+    ),
+    url("./assets/images/recepcion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.recepcion-information {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+/* window */
+.window-back {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/pexels-noé-villalta-photography-12017109.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.window {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/Untitled\ design.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* padres y padrinos */
+.familiares-information {
+  min-height: 110vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.padrinos {
+  min-height: 110vh;
+  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card {
+  width: 80%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(240, 248, 255, 0.325);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.h-80 {
+  height: 80%;
+}
+.padres {
+  border-radius: 100%;
+  width: 60%;
+}
+/* regalos */
+.regalos {
+  height: 110vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/pexels-karolina-grabowska-5725887.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.space {
+  height: 30%;
+}
+.icon {
+  font-size: 4rem;
+}
+
+.pt-7 {
+  padding-top: 3rem;
+}
+.enlace-regalos {
+  padding: 2rem;
+  text-decoration: none;
+  color: black;
+}
+.enlace-regalos:hover {
+  text-decoration: none;
+}
+
+/* Asistencia */
+.asistencia {
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* gracias */
+.gracias {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/072cf305144974ce67d1f280238426eb.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* asistencia */
+.btn-asistencia {
+  color: black;
+  background-color: rgba(227, 186, 194, 0.496);
+  border: solid 1px blanchedalmond;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.btn-asistencia:hover {
+  background-color: rgba(253, 245, 253, 0.596);
+  transition: all ease 0.7s;
+  text-decoration: none;
+  color: black;
+}
+.txt-gracias {
+  font-family: "Tangerine", cursive;
+  font-weight: 900;
+  font-size: 6rem;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(12, 12, 12, 0.701) 0.2em 0.2em 0.3em;
+}
+/* footer */
+footer {
+  background: rgba(227, 186, 194, 0.496);
+}
+.marca {
+  color: rgb(150, 118, 118);
+  text-decoration-line: underline;
+}
+.marca:hover {
+  color: black;
+}
+@media (min-width: 470px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .text-fecha {
+    font-size: 3.4rem;
+  }
+  .main-phrase .font-tange {
+    font-size: 2.5rem;
+  }
+  .titles {
+    font-size: 8rem;
+  }
+  .subtitles {
+    font-size: 5.5rem;
+  }
+  .lead {
+    font-size: 1.5rem;
+  }
+  .hora {
+    font-size: 2.8rem;
+  }
+  .icon {
+    font-size: 5rem;
+  }
+  .regalos {
+    height: 120vh;
+  }
+  .txt-gracias {
+    font-size: 6.5rem;
+  }
+}
+/* TEXT EFFECTS */
+.animate-up {
+  opacity: 0;
+  transition: all 0.9s;
+}
+.animate-text {
+  opacity: 0;
+  transition: all 3s;
+}
+.animate-image {
+  opacity: 0;
+  transition: all ease 0.8s;
+}
+.animate-right {
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+.animate-left {
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+.animate-down {
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+.appear-up {
+  animation: appear-rigth 1s;
+}
+.appear-image {
+  animation: appear-image 0.9s;
+}
+.appear-right {
+  animation: appear-right 1.5s;
+}
+.appear-left {
+  animation: appear-left 1s;
+}
+.appear-down {
+  animation: appear-down 1s;
+}
+.appear-text {
+  animation: appear-text 2s;
+}
+
+@keyframes appear-rigth {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes appear-image {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes appear-right {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes appear-left {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes appear-down {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes appear-text {
+  0% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* responsive----------------------- */
+@media (min-width: 780px) {
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 4.5rem;
+  }
+  .text-fecha {
+    font-size: 3.6rem;
+  }
+  .main-phrase .font-tange {
+    font-size: 3rem;
+  }
+  .titles {
+    font-size: 9rem;
+  }
+  .subtitles {
+    font-size: 6rem;
+  }
+  .lead {
+    font-size: 1.7rem;
+  }
+  .hora {
+    font-size: 3rem;
+  }
+  .main-phrase .text {
+    font-size: 2rem;
+  }
+  .pt-7 {
+    padding-top: 7rem;
+  }
+  .icon {
+    font-size: 6rem;
+  }
+  .regalos {
+    height: 100vh;
+  }
+  .txt-gracias {
+    font-size: 7.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 7rem;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+  .text-fecha {
+    font-size: 4rem;
+  }
+  .main-phrase .font-tange {
+    font-size: 3.2rem;
+  }
+  .titles {
+    font-size: 10rem;
+  }
+  .subtitles {
+    font-size: 7.5rem;
+  }
+  .lead {
+    font-size: 2rem;
+  }
+  .hora {
+    font-size: 3.5rem;
+  }
+  .main-phrase .text {
+    font-size: 2.5rem;
+  }
+  .icon {
+    font-size: 8rem;
+  }
+  .txt-gracias {
+    font-size: 8.5rem;
+  }
+}
