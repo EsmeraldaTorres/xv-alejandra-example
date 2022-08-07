@@ -17,16 +17,21 @@
   font-family: "Charmonman", cursive;
 }
 .name {
-  /* font-family: "Charmonman", cursive; */
   color: rgb(255, 245, 247);
   text-shadow: rgba(0, 0, 0, 0.503) 0.1em 0.1em 0.2em;
 }
-
+h1 {
+  font-size: 4rem;
+}
 .home h2 {
   text-shadow: rgba(0, 0, 0, 0.503) 0.1em 0.1em 0.2em;
+  font-size: 3.5rem;
 }
 .main-phrase .font-tange {
   font-size: 2.2rem;
+}
+.faltan {
+  font-size: 2rem;
 }
 .home {
   height: 100vh;
@@ -47,33 +52,47 @@
 /* Cuando */
 .cuando {
   height: 100vh;
-  background-image: url("./assets/images/fondo.png");
+  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
   padding: 0;
   margin: 0;
   background-size: cover;
   background-position: center;
 }
+.img-fecha {
+  height: 40vh;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cuenta {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
 .text-fecha {
   font-size: 3rem;
   color: white;
 }
 .cuenta-regresiva {
   text-align: center;
+  font-size: 1.3rem;
+}
+.txt-pink {
   font-size: 2rem;
-  color: rgba(255, 255, 255, 0.815);
+  color: rgba(160, 106, 116, 0.979);
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.transparent {
-  color: rgba(255, 255, 255, 0.815);
-}
+
 /* main-phrase */
 .main-phrase {
-  height: 100vh;
+  height: 85vh;
   margin: 0;
   padding: 0;
   background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-position: center;
 }
 .w-70 {
@@ -281,6 +300,9 @@ a {
   color: white;
   text-shadow: rgba(12, 12, 12, 0.701) 0.2em 0.2em 0.3em;
 }
+.w-90 {
+  width: 90%;
+}
 /* footer */
 footer {
   background: rgba(227, 186, 194, 0.496);
@@ -292,12 +314,40 @@ footer {
 .marca:hover {
   color: black;
 }
+/* audio */
+.player-audio {
+  display: none;
+}
+.player-icon {
+  font-size: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 100%;
+}
+.player-btn {
+  bottom: 2rem;
+  right: 2rem;
+  position: fixed;
+  justify-content: end;
+  align-items: flex-end;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  justify-content: center;
+}
+.hide {
+  display: none;
+}
+.player-btn:hover {
+  cursor: pointer;
+}
 @media (min-width: 470px) {
   h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
-  h2 {
-    font-size: 2rem;
+  .home h2 {
+    font-size: 3.8rem;
   }
   .text-fecha {
     font-size: 3.4rem;
@@ -325,6 +375,24 @@ footer {
   }
   .txt-gracias {
     font-size: 6.5rem;
+  }
+  .cuenta-regresiva {
+    font-size: 1.6rem;
+  }
+  .txt-pink {
+    font-size: 2.6rem;
+  }
+  .img-fecha {
+    height: 45vh;
+  }
+  .cuenta {
+    justify-content: space-between;
+  }
+  .faltan {
+    font-size: 2.3rem;
+  }
+  .main-phrase {
+    height: 85vh;
   }
 }
 /* TEXT EFFECTS */
@@ -424,7 +492,7 @@ footer {
   h1 {
     font-size: 6rem;
   }
-  h2 {
+  .home h2 {
     font-size: 4.5rem;
   }
   .text-fecha {
@@ -460,12 +528,27 @@ footer {
   .txt-gracias {
     font-size: 7.5rem;
   }
+  .cuenta-regresiva {
+    font-size: 1.8rem;
+  }
+  .txt-pink {
+    font-size: 2.9rem;
+  }
+  .img-fecha {
+    height: 50vh;
+  }
+  .cuenta {
+    width: 70%;
+  }
+  .faltan {
+    font-size: 2.6rem;
+  }
 }
 @media (min-width: 1024px) {
   h1 {
     font-size: 7rem;
   }
-  h2 {
+  .home h2 {
     font-size: 5rem;
   }
   .text-fecha {
@@ -494,5 +577,17 @@ footer {
   }
   .txt-gracias {
     font-size: 8.5rem;
+  }
+  .cuenta-regresiva {
+    font-size: 2rem;
+  }
+  .txt-pink {
+    font-size: 3.1rem;
+  }
+  .cuenta {
+    width: 85%;
+  }
+  .faltan {
+    font-size: 3.1rem;
   }
 }

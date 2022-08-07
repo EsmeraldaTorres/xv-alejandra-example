@@ -17,14 +17,16 @@ var x = setInterval(function () {
 
   // Output the result in an element with id="demo"
   document.getElementById("demo").innerHTML = `
-    <div class="d-flex justify-content-around" ><div>
-    <div>${days}</div><div> días</div>
+  <div class="d-flex justify-content-center">
+    <div class="cuenta p-4" ><div>
+    <div class=" txt-pink">${days}</div><div class="cuenta-regresiva"> días</div>
     </div>
     <div>
-    <div>${hours}</div><div> horas</div>
+    <div class=" txt-pink">${hours}</div><div class="cuenta-regresiva"> horas</div>
     </div>
     <div>
-    <div>${minutes}</div><div> min</div>
+    <div class=" txt-pink">${minutes}</div><div class="cuenta-regresiva"> min</div>
+    </div>
     </div>
     </div>
     `;
@@ -42,7 +44,7 @@ function showRigth() {
   let scrollTop = document.documentElement.scrollTop;
   for (let i = 0; i < animateRigth.length; i++) {
     let high = animateRigth[i].offsetTop;
-    if (high - 700 < scrollTop) {
+    if (high - 660 < scrollTop) {
       animateRigth[i].style.opacity = 1;
       animateRigth[i].classList.add("appear-rigth");
     }
@@ -74,7 +76,7 @@ function showLeft() {
   let scrollTop = document.documentElement.scrollTop;
   for (let i = 0; i < animateLeft.length; i++) {
     let high = animateLeft[i].offsetTop;
-    if (high - 400 < scrollTop) {
+    if (high - 600 < scrollTop) {
       animateLeft[i].style.opacity = 1;
       animateLeft[i].classList.add("appear-left");
     }
@@ -130,3 +132,19 @@ function showText() {
 }
 
 window.addEventListener("scroll", showText);
+
+// -------------------------------AUDIO
+const audio = document.getElementById("audio");
+const playPause = document.getElementById("play");
+
+playPause.addEventListener("click", () => {
+  if (audio.paused || audio.ended) {
+    playPause.querySelector(".pause-btn").classList.toggle("hide");
+    playPause.querySelector(".play-btn").classList.toggle("hide");
+    audio.play();
+  } else {
+    audio.pause();
+    playPause.querySelector(".pause-btn").classList.toggle("hide");
+    playPause.querySelector(".play-btn").classList.toggle("hide");
+  }
+});
