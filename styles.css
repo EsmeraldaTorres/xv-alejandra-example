@@ -60,6 +60,7 @@ h1 {
 }
 .img-fecha {
   height: 40vh;
+  width: 100%;
   padding-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -295,7 +296,7 @@ a {
 .txt-gracias {
   font-family: "Tangerine", cursive;
   font-weight: 900;
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   color: white;
   text-shadow: rgba(12, 12, 12, 0.701) 0.2em 0.2em 0.3em;
