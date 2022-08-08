@@ -37,8 +37,8 @@ h1 {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url(./assets/images/SONY-ILCE-7RM2-001402664704.jpeg);
   background-size: cover;
+  background-image: url(./assets/images/quince.jpeg);
   background-repeat: no-repeat;
   background-position: center;
 }
