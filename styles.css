@@ -129,9 +129,10 @@ h1 {
   background-position: bottom;
 }
 .ceremonia-information {
-  height: 100vh;
+  height: max-content;
   margin: 0;
-  padding: 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
   background-size: cover;
   background-repeat: no-repeat;
