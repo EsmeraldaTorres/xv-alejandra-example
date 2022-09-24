@@ -18,7 +18,7 @@ var x = setInterval(function () {
   // Output the result in an element with id="demo"
   document.getElementById("demo").innerHTML = `
   <div class="d-flex justify-content-center">
-    <div class="cuenta p-4" ><div>
+    <div class="cuenta" ><div>
     <div class=" txt-pink">${days}</div><div class="cuenta-regresiva"> días</div>
     </div>
     <div>
