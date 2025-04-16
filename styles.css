@@ -1,14 +1,22 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+.txt-black {
+  color: black !important;
 }
 .font-edu {
   font-family: "Edu QLD Beginner", cursive;
+}
+.font-paris {
+  font-family: "Parisienne", cursive;
 }
 .font-great {
   font-family: "Great Vibes", cursive;
 }
 .font-tange {
-  font-family: "Tangerine", cursive;
+  font-family: "Great Vibes", cursive;
 }
 .font-pinyon {
   font-family: "Pinyon Script", cursive;
@@ -16,60 +24,159 @@
 .font-charmo {
   font-family: "Charmonman", cursive;
 }
-.name {
-  color: rgb(255, 245, 247);
-  text-shadow: rgba(0, 0, 0, 0.503) 0.1em 0.1em 0.2em;
+.max-w-90 {
+  max-width: 100vw;
 }
-h1 {
-  font-size: 4rem;
+.avoiding-scroll {
+  height: 100%;
+  overflow: hidden;
 }
-.home h2 {
-  text-shadow: rgba(0, 0, 0, 0.503) 0.1em 0.1em 0.2em;
+.overflow-hidden{
+  overflow: hidden;
+}
+.display-3 {
   font-size: 3.5rem;
 }
-.main-phrase .font-tange {
-  font-size: 2.2rem;
+.font-paris {
+  font-family: "Parisienne", cursive;
 }
-.faltan {
-  font-size: 2rem;
+.display-1 {
+  font-size: 7rem !important;
 }
-.font-tange1 {
-  font-family: "Tangerine", cursive;
-  font-weight: 700;
-  color: rgba(160, 106, 116, 0.979);
+.font-cormo {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
 }
-.home {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  background-image: url(./assets/images/quince.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
+.font-kalam {
+  font-family: "Kalam", cursive;
 }
-.pb-5 {
-  padding-bottom: 5rem;
+.font-gold {
+  color: #9d6e26;
 }
-.display-6 {
-  font-size: 1.8rem;
+.text-shadow {
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.title2 {
+  font-size: 2.5rem;
 }
 
-/* Cuando */
-.cuando {
+.test-class {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   height: 100vh;
+}
+
+/* data-aos-duration="3000" */
+/* sobre */
+.sobre {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-dark-black {
+  /* background-color: #ffa0b5; */
   background-image: linear-gradient(
-      rgba(100, 38, 105, 0.274),
-      rgba(79, 52, 77, 0.171)
+      rgba(5, 7, 12, 0.527),
+      rgba(5, 7, 12, 0.514)
     ),
-    url("./assets/images/pexels-eberhard-grossgasteiger-844297.jpg");
+    url("./assets/images/4.png");
   padding: 0;
   margin: 0;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-position: top;
+}
+
+.animate__animated.animate__fadeOut {
+  --animate-duration: 0.05s;
+}
+.animate__animated .animate__pulse {
+  --animate-duration: 3s;
+}
+
+.z-index-3 {
+  position: absolute;
+  bottom: 50vh;
+  height: 40vh;
+  top: 20vh;
+  z-index: 3;
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  border-style: none;
+}
+.z-index-2 {
+  position: absolute;
+  bottom: 20vh;
+  height: 50vh;
+  z-index: 2;
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  border-style: none;
+}
+button {
+  box-shadow: none !important;
+  transition: none !important;
+}
+button:focus {
+  outline: none;
+}
+
+.btn-light {
+  color: white;
+  background-color: #7c5154;
+  border-color: #7c5154;
+}
+.txt-gray-white {
+  color: #6e591c !important;
+}
+.btn-open {
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  border: none;
+}
+.btn-open img {
+  height: 50%;
+  width: 50%;
+  padding-top: 7rem;
+}
+.hide {
+  visibility: hidden;
+  max-height: 0vw;
+}
+
+.visibility {
+  visibility: hidden;
+}
+/* Cuando */
+.cuando {
+  height: 90vh;
+  background-image:
+    url("./assets/images/4.png");
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-position: top;
 }
 .img-fecha {
-  height: 40vh;
-  width: 100%;
+  height: 45vh;
   padding-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -81,30 +188,27 @@ h1 {
 
 .text-fecha {
   font-size: 3rem;
-  color: white;
 }
 
 .cuenta-regresiva {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   /* text-shadow: 1px 1px 2px rgba(20, 17, 17, 0.507); */
 }
-.txt-pink {
-  font-size: 2rem;
-  color: white;
-  /* color: rgba(160, 106, 116, 0.979); */
-  text-shadow: rgba(209, 205, 205, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+.txt-shadow-white {
+  color: #314c45 !important;
+
+  text-shadow: rgba(247, 245, 245, 0.482) 0px 54px 55px,
+    rgba(201, 199, 199, 0.794) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
-/* main-phrase */
 .main-phrase {
-  height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: min-content;
   margin: 0;
-  padding: 0;
-  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
-  background-size: cover;
+  /* background-color: #12141d; */
+  background-image: linear-gradient(rgb(239 226 236 / 0%), rgb(203 137 192 / 18%)), url("./assets/images/1.png"); 
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -114,219 +218,31 @@ h1 {
 .main-phrase .text {
   font-size: 1.6rem;
 }
-/* Ceremonia */
-.ceremonia-img {
+/* home */
+.invitacion {
+  width: 100vw;
+}
+.home {
   height: 100vh;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(
-      rgba(5, 7, 12, 0.493),
-      rgba(5, 7, 12, 0.329)
+      rgba(5, 7, 12, 0.308),
+      rgba(5, 7, 12, 0.335)
     ),
-    url("./assets/images/iglesia.jpeg");
+    url("./assets/images/quince.jpeg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
 }
-.ceremonia-information {
-  height: max-content;
-  margin: 0;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-.titles {
-  font-family: "Tangerine", cursive;
-  font-size: 7rem;
-}
-.subtitles {
-  color: rgb(111, 69, 76);
-  font-family: "Tangerine", cursive;
-  font-size: 5rem;
-}
-.lead {
-  font-size: 1.2rem;
-}
-.hora {
-  font-size: 2.5rem;
-}
-button {
-  background-color: rgba(227, 186, 194, 0.496);
-  border: solid 1px rgb(233, 228, 233);
-  padding: 1rem;
-  border-radius: 10px;
-}
-button:hover {
-  background-color: rgba(253, 245, 253, 0.596);
-  transition: all ease 0.7s;
-}
-a {
-  text-decoration: none;
-}
-/* Recepcion */
-.recepcion-img {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(
-      rgba(5, 7, 12, 0.274),
-      rgba(5, 7, 12, 0.171)
-    ),
-    url("./assets/images/recepcion.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-.recepcion-information {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-/* window */
-.window-back {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-image: url("./assets/images/quinceañera.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
-.window {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-image: url("./assets/images/Untitled\ design.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-/* padres y padrinos */
-.familiares-information {
-  min-height: 110vh;
-  margin: 0;
-  padding: 0;
-  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.padrinos {
-  min-height: 110vh;
-  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.card {
+.name {
+  /* padding-top: 5rem; */
   width: 80%;
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(240, 248, 255, 0.325);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.h-80 {
-  height: 80%;
-}
-.padres {
-  border-radius: 100%;
-  width: 60%;
-}
-/* regalos */
-.regalos {
-  height: 110vh;
-  margin: 0;
-  padding: 0;
-  background-image: url("./assets/images/pexels-karolina-grabowska-5725887.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.space {
-  height: 30%;
-}
-.icon {
-  font-size: 4rem;
-}
-
-.pt-7 {
-  padding-top: 3rem;
-}
-.enlace-regalos {
-  padding: 2rem;
-  text-decoration: none;
-  color: black;
-}
-.enlace-regalos:hover {
-  text-decoration: none;
-}
-
-/* Asistencia */
-.asistencia {
-  height: 50vh;
-  margin: 0;
-  padding: 0;
-  background-image: url("./assets/images/Brown\ Professional\ Singing\ Completion\ Certificate.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-/* gracias */
-.gracias {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-image: url("./assets/images/kaptura.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-/* asistencia */
-.btn-asistencia {
-  color: black;
-  background-color: rgba(227, 186, 194, 0.496);
-  border: solid 1px blanchedalmond;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
-    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-}
-.btn-asistencia:hover {
-  background-color: rgba(253, 245, 253, 0.596);
-  transition: all ease 0.7s;
-  text-decoration: none;
-  color: black;
-}
-.txt-gracias {
-  font-family: "Tangerine", cursive;
-  font-weight: 900;
-  font-size: 4rem;
-  text-align: center;
-  color: white;
-  text-shadow: rgba(12, 12, 12, 0.701) 0.2em 0.2em 0.3em;
-}
-.w-90 {
-  width: 90%;
-}
-/* footer */
-footer {
-  background: rgba(227, 186, 194, 0.496);
-}
-.marca {
-  color: rgb(150, 118, 118);
-  text-decoration-line: underline;
-}
-.marca:hover {
-  color: black;
+  padding-right: 0;
 }
 /* audio */
 .player-audio {
@@ -339,6 +255,9 @@ footer {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 100%;
 }
+.text-invitation {
+  font-size: 1.6rem !important;
+}
 .player-btn {
   bottom: 2rem;
   right: 2rem;
@@ -349,117 +268,271 @@ footer {
   cursor: pointer;
   border-radius: 50%;
   justify-content: center;
-}
-.hide {
-  display: none;
+  z-index: 9;
 }
 .player-btn:hover {
   cursor: pointer;
 }
-@media (min-width: 470px) {
-  h1 {
-    font-size: 4.5rem;
-  }
-  .home h2 {
-    font-size: 3.8rem;
-  }
-  .text-fecha {
-    font-size: 3.4rem;
-  }
-  .main-phrase .font-tange {
-    font-size: 2.5rem;
-  }
-  .titles {
-    font-size: 8rem;
-  }
-  .subtitles {
-    font-size: 5.5rem;
-  }
-  .lead {
-    font-size: 1.5rem;
-  }
-  .hora {
-    font-size: 2.8rem;
-  }
-  .icon {
-    font-size: 5rem;
-  }
-  .regalos {
-    height: 120vh;
-  }
-  .txt-gracias {
-    font-size: 6.5rem;
-  }
-  .cuenta-regresiva {
-    font-size: 1.6rem;
-  }
-  .txt-pink {
-    font-size: 2.6rem;
-  }
-  .img-fecha {
-    height: 45vh;
-  }
-  .cuenta {
-    justify-content: space-between;
-  }
-  .faltan {
-    font-size: 2.3rem;
-  }
-  .main-phrase {
-    height: 85vh;
-  }
+/*  window-bg*/
+.second-section {
+  height: min-content;
+  max-width: 100%;
+  background-image: url("./assets/images-j-ignacio/");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
-/* TEXT EFFECTS */
-.animate-up {
-  opacity: 0;
-  transition: all 0.9s;
+.second-section .container {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  padding: 1rem 0;
+  min-width: 100%;
 }
-.animate-text {
-  opacity: 0;
-  transition: all 3s;
+.second-section .container2 {
+  height: 60vh;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.575);
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-section .container3 {
+  background-color: rgb(255, 255, 255);
+  height: min-content;
+}
+.decoration {
+  width: 200px;
+  height: 5vh;
+}
+.display-4 {
+  font-size: 3rem;
+}
+.display-6 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding: 0 2rem;
+}
+.cuenta-regresiva {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.cuenta {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+.txt-pink {
+  font-size: 1rem;
+  color: cornsilk;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+hr {
+  width: 30%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    #f0f0f02f,
+    #000000b6,
+    #000000b6,
+    #f0f0f02f
+  );
+}
+.icon-mp4 {
+  width: 50px;
+}
+.gallery .owl-nav {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  color: white;
+}
+.gallery .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  outline-style: none;
+}
+/* window */
+.window-back {
+  height: max-content;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgb(9 64 39 / 42%), rgb(6 57 26 / 72%)),
+    url("./assets/images/bg5.jpg");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+.align-name {
+  align-items: end;
+  height: 100vh;
+  padding-bottom: 9rem;
+}
+.window-back2 {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #dcb9c4;
+  /* background-image: url("./assets/images/pexels-karolina-grabowska-4040592.jpg"); */
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+.window-misa {
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.527),
+      rgba(5, 7, 12, 0.514)
+    ),
+    url("./assets/images/pexels-photo-21366243.webp");
+}
+.window-153 {
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./assets/images/rancho-la-estacio__n-sesio__n-quinces-ximena_0034.jpg");
+}
+.window-back3 {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/images/pexels-becerra-govea-photo-6652750.jpg");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+}
+/* linear-gradient(
+        rgba(5, 7, 12, 0.527),
+        rgba(5, 7, 12, 0.514)
+      ), */
+.names {
+  color: #b4808e;
+  font-weight: bolder;
+}
+.txt-green {
+  /* color: #314c45 !important; */
+  color: #fff7e1 !important;
+}
+.window-15 {
+  text-align: center;
+  height: 80vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url("./assets/images/bg7.png");
+}
+.card-hotel {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  flex-direction: column;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery {
+  height: max-content;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.527),
+      rgba(5, 7, 12, 0.514)
+    ),
+    url("./assets/images/bg2.jpg");
+}
+.window-152 {
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.527),
+      rgba(5, 7, 12, 0.514)
+    ),
+    url("./assets/images/recepcion.jpg");
+}
+
+.window {
+  color: white;
+  height: 0vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* background-color: rgba(255, 235, 205, 0);s */
+  /* background-image: url("./assets/images-j-ignacio/bg-azul-marino-1.png"); */
+}
+.numero-15 {
+  width: 200px;
+}
+.pb-4rem {
+  padding-bottom: 4rem;
+}
+.pt-4rem {
+  padding-top: 3rem;
 }
 .animate-image {
   opacity: 0;
   transition: all ease 0.8s;
-}
-.animate-right {
-  opacity: 0;
-  transition: all ease 0.5s;
-}
-.animate-left {
-  opacity: 0;
-  transition: all ease 0.5s;
-}
-.animate-down {
-  opacity: 0;
-  transition: all ease 0.5s;
-}
-.appear-up {
-  animation: appear-rigth 1s;
-}
-.appear-image {
-  animation: appear-image 0.9s;
-}
-.appear-right {
-  animation: appear-right 1.5s;
-}
-.appear-left {
-  animation: appear-left 1s;
-}
-.appear-down {
-  animation: appear-down 1s;
-}
-.appear-text {
-  animation: appear-text 2s;
-}
-
-@keyframes appear-rigth {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
 }
 @keyframes appear-image {
   0% {
@@ -469,139 +542,552 @@ footer {
     transform: translateY(0);
   }
 }
-@keyframes appear-right {
-  0% {
-    transform: translateX(50%);
+.appear-image {
+  animation: appear-image 0.9s;
+}
+/* Pase */
+.pase {
+  background-color: whitesmoke;
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.font-icon {
+  font-size: 1.2rem;
+}
+.font-gold {
+  color: rgb(168, 143, 105);
+}
+/* recepcion */
+.recepcion-img {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.274),
+      rgba(5, 7, 12, 0.171)
+    ),
+    url("./assets/images/free-photo-of-sesion-xv-anos\ \(1\).jpeg");
+  /* url("./assets/images/fiesta.png"); */
+
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.recepcion-information {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  height: max-content;
+  margin: 0;
+  background-image: 
+    url("./assets/images/4.png");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.recepcion-information2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height: max-content;
+  margin: 0;
+  background-image: linear-gradient(rgb(9 64 39 / 42%), rgb(6 57 26 / 72%)),
+    url("./assets/images/bg5.jpg");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.hora {
+  font-size: 3.5rem;
+}
+/* itinerario */
+.itinerario {
+  height: 60vh;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.277),
+      rgba(5, 7, 12, 0.277)
+    ),
+    url("./assets/images/salon3.jpg");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+h3 {
+  top: 25;
+}
+.w-25 {
+  width: 25%;
+}
+.h-25 {
+  height: 25%;
+}
+.card {
+  background-color: rgba(137, 43, 226, 0);
+  width: 100vw;
+  height: 50vh;
+  border: none;
+}
+.card-img {
+  height: 150px;
+  width: 160px;
+  padding-bottom: 1rem;
+}
+.display-5 {
+  font-size: 1.6rem;
+}
+.display-number {
+  font-size: 1.2rem;
+}
+/* ubicaciÃ³n */
+.ubicacion {
+  height: min-content;
+}
+.line {
+  /* height: 20px; */
+  padding-top: 1%;
+  width: 200px;
+}
+.container-ubicaciones {
+  width: 70%;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.img-ubicaciones {
+  border-radius: 100%;
+  width: 200px !important;
+  height: 200px !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.img-hoteles {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.bg-gold {
+  background-color: rgb(168, 143, 105) !important;
+}
+button {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: ease-out 2s;
+}
+button:hover {
+  transform: scale(1.05);
+}
+.owl-nav {
+  color: rgba(27, 27, 26, 0.575);
+  display: flex;
+  font-size: 2rem;
+  margin-top: 0px !important;
+  justify-content: space-between;
+}
+.icon-img {
+  height: 100px;
+  width: 30% !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.owl-container {
+  width: 100%;
+}
+.w-30 {
+  width: 30%;
+}
+/* segundo window */
+
+.w-90 {
+  width: 85%;
+}
+/* nuestro-inicio */
+.nuestro-inicio {
+  background-color: rgb(197, 166, 119);
+}
+.nuestro-inicio img {
+  width: 250;
+  height: 180px;
+  border: solid 2px whitesmoke;
+  border-radius: 5px;
+}
+.text {
+  width: 80%;
+}
+/* regalos */
+.w-80 {
+  width: 80%;
+}
+.text2 {
+  width: 50%;
+}
+.window-regalos {
+  height: max-content;
+  max-width: 100%;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.277),
+      rgba(5, 7, 12, 0.277)
+    ),
+    url("./assets/images/fondo.png");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.btn {
+  white-space: normal !important;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.card-regalos {
+  margin: 1rem 0 2rem;
+  height: 80%;
+  width: 100%;
+  border-radius: 5%;
+  background-color: rgb(194 194 194 / 57%);
+}
+.logo-liverpool {
+  width: 150px;
+}
+.icon-sobre {
+  font-size: 5.5rem;
+}
+.bg-gray {
+  background-color: rgba(189, 188, 188, 0.29);
+}
+.bg-dark-blue {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+  color: white;
+  background-image:
+    url("./assets/images/4.png");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.padding-4 {
+  padding-top: 2rem !important;
+  padding-bottom: 4rem !important;
+}
+.bg-vestimenta {
+  height: min-content !important;
+  color: white;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.527),
+      rgba(5, 7, 12, 0.514)
+    ),
+    url("./assets/images/bg2.jpg");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-trans-white {
+  background-color: rgba(249, 249, 240, 0.229);
+}
+/*  window  2 back */
+.window-back-2 {
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("./assets/images/Regina-5.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text-infor {
+  font-size: 1.8rem;
+}
+.img-vestimenta {
+  border-radius: 100%;
+  background: #00000061;
+}
+.window-2 {
+  color: white;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: rgba(255, 235, 205, 0);s */
+  background-image: url("./assets/images-j-ignacio/jose4.jpeg");
+}
+
+.familiares-information {
+  padding-top: 5rem;
+  min-height: max-content;
+  margin: 0;
+  padding-bottom: 7rem;
+  /* background-color: #94815d; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-image:
+    url("./assets/images/2.png");
+}
+.familiares-information2 {
+  padding-top: 5rem;
+
+  min-height: max-content;
+  margin: 0;
+  padding-bottom: 2rem;
+  /* background-color: #94815d; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-image:
+    url("./assets/images/2.png");
+}
+.card {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(240, 248, 255, 0.325);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.h-80 {
+  height: 80%;
+}
+.padres {
+  border-radius: 100%;
+  width: 100%;
+}
+.last-container {
+  color: rgba(255, 255, 255, 0.496);
+  font-size: 0.8rem;
+  height: 3vh;
+  width: 100%;
+  background-color: #12141d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 9;
+}
+.display-2 {
+  font-size: 2.8rem;
+}
+.gracias {
+  height: 100vh;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.393),
+      rgba(5, 7, 12, 0.462)
+    ),
+    url("./assets/images/free-photo-of-sesion-xv-anos\ \(1\).jpeg");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.marca {
+  color: rgb(246, 244, 240);
+}
+@media (min-width: 470px) {
+  .name {
+    width: 70%;
+    padding-right: 0 !important;
   }
-  100% {
-    transform: translateX(0);
+  .display-3 {
+    font-size: 4rem;
+  }
+  .title-principal {
+    font-size: 3.5rem;
+  }
+  .hora {
+    font-size: 2.8rem;
+  }
+  .display-1 {
+    font-size: 8rem !important;
+  }
+  .nuestro-inicio img {
+    width: 450px;
+    height: 350px;
+  }
+  .icon-sobre {
+    font-size: 7rem;
+  }
+  .card-img {
+    height: 200px;
+    width: 160px;
+  }
+  .logo-liverpool {
+    width: 200px;
+  }
+  .w-90 {
+    width: 80%;
+  }
+  .display-2 {
+    font-size: 3.5rem;
+  }
+  .display-5 {
+    font-size: 1.3rem;
+  }
+  .img-fecha {
+    height: 50vh;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
-@keyframes appear-left {
-  0% {
-    transform: translateX(-50%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes appear-down {
-  0% {
-    transform: translateY(50%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-@keyframes appear-text {
-  0% {
-    transform: translateY(20%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-/* responsive----------------------- */
-@media (min-width: 780px) {
-  h1 {
-    font-size: 6rem;
-  }
-  .home h2 {
-    font-size: 4.5rem;
-  }
-  .text-fecha {
-    font-size: 3.6rem;
-  }
-  .main-phrase .font-tange {
-    font-size: 3rem;
-  }
-  .titles {
-    font-size: 9rem;
-  }
-  .subtitles {
-    font-size: 6rem;
-  }
-  .lead {
-    font-size: 1.7rem;
+
+@media (min-width: 760px) {
+  .name {
+    width: 60%;
+    padding-right: 0 !important;
   }
   .hora {
     font-size: 3rem;
   }
-  .main-phrase .text {
+  .display-3 {
+    font-size: 4.5rem;
+  }
+  .display-1 {
+    font-size: 9rem !important;
+  }
+  .title-principal {
+    font-size: 5.5rem;
+  }
+
+  .display-4 {
+    font-size: 3.6rem;
+  }
+
+  .cuenta-regresiva {
     font-size: 2rem;
   }
-  .pt-7 {
-    padding-top: 7rem;
+  .owl-container {
+    width: 60%;
   }
-  .icon {
-    font-size: 6rem;
+  .text {
+    width: 50%;
   }
-  .regalos {
-    height: 100vh;
+  .nuestro-inicio img {
+    width: 600px;
+    height: 500px;
   }
-  .txt-gracias {
-    font-size: 7.5rem;
+  .card-regalos {
+    width: 80%;
   }
-  .cuenta-regresiva {
-    font-size: 1.8rem;
+  .logo-liverpool {
+    width: 250px;
+    margin-bottom: 2rem;
   }
-  .txt-pink {
-    font-size: 2.9rem;
+  .w-90 {
+    width: 60%;
+  }
+  .display-2 {
+    font-size: 4.5rem;
+  }
+  .display-5 {
+    font-size: 1.4rem;
   }
   .img-fecha {
     height: 50vh;
-  }
-  .cuenta {
-    width: 70%;
-  }
-  .faltan {
-    font-size: 2.6rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
-@media (min-width: 1024px) {
-  h1 {
-    font-size: 7rem;
-  }
-  .home h2 {
-    font-size: 5rem;
-  }
-  .text-fecha {
-    font-size: 4rem;
-  }
-  .main-phrase .font-tange {
-    font-size: 3.2rem;
-  }
-  .titles {
-    font-size: 10rem;
-  }
-  .subtitles {
-    font-size: 7.5rem;
-  }
-  .lead {
-    font-size: 2rem;
+@media (min-width: 1020px) {
+  .name {
+    width: 50%;
+    padding-right: 0 !important;
   }
   .hora {
     font-size: 3.5rem;
   }
-  .main-phrase .text {
-    font-size: 2.5rem;
+  .display-1 {
+    font-size: 10rem !important;
   }
-  .icon {
-    font-size: 8rem;
+  .z-index-3 {
+    position: absolute;
+    bottom: 30;
+    top: 0;
+    height: 70vh;
+    z-index: 3;
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    border-style: none;
+    background-position: center;
   }
-  .txt-gracias {
-    font-size: 8.5rem;
+  .z-index-2 {
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    z-index: 2;
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    border-style: none;
   }
-  .cuenta-regresiva {
-    font-size: 2rem;
+  .btn-open img {
+    height: 40%;
+    width: 40%;
   }
-  .txt-pink {
-    font-size: 3.1rem;
+  .card {
+    height: 45vh;
   }
-  .cuenta {
-    width: 85%;
+  .logo-liverpool {
+    width: 250px;
   }
-  .faltan {
-    font-size: 3.1rem;
+  .owl-container {
+    width: 30%;
+  }
+  .w-90 {
+    width: 45%;
+  }
+  .display-2 {
+    font-size: 5.5rem;
+  }
+  .display-5 {
+    font-size: 1.6rem;
   }
 }
